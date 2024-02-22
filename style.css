@@ -1,0 +1,155 @@
+/*LJMS Info Hub Copyright@ 2024 by Jiaxiang X and Mercer K is licensed under Attribution-ShareAlike 4.0 International :D*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.title {
+    flex: 2; 
+}
+
+.content {
+    flex: 1;
+}
+
+h1 {
+    font-size: 121px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.content {
+    text-align: right;
+}
+.content p, .content h2 {
+    margin: 0;
+    font-size: 24px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+ul li {
+    font-size: 24px;
+}
+.list-container {
+    display: none;
+}
+.active {
+    display: block;
+}
+#console {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+#datetitle{
+    font-size: 54px;
+    margin-top: 10px;
+    margin-right: 0px;
+    text-align: center;
+}
+#liveDate{
+    font-size: 30px;
+    text-align: center;
+}
+#liveTime {
+    font-size: 54px;
+    text-align: center;
+    
+}
+#roarr{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+#fullscreenBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#todayis{
+    margin-top: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#day{
+    font-size: 45px;
+    text-align: center;
+}
+
+#daylist{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+#timeleftclass {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#timer {
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.purple {
+    background-color: rgb(255, 0, 255);
+    color: white;
+}
+
+.flashing-purple {
+    background-color: rgb(255, 0, 255);
+    animation: flashing 0.5s infinite alternate;
+}
+
+@keyframes flashing {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
